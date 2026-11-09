@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	color: #1D3557;
+}
+
+.top{
+	background-image: url("images/vancouver.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#title{
+	background: #457B9D;
+}
+
+#desc{
+	background: #1D3557;
+}
+
+.middle{
+	background: #F1FAEE;
+}
+
+.activities{
+	display: flex;
+	gap: 60px;
+	justify-content: space-around;
+	padding: 15px;
+}
+
+.activity-img {
+    width: 100px;
+	border-radius: 50%
+}
+
+.bottom{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	background: #A8DADC;
+	margin: 30px 0;
+	width: 400px;
+	height: 230px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	padding: 20px;
+	border-bottom: 5px solid #457B9D;;
+}
+
+#profile-img{
+	width: 170px;
+	height: 190px;
+}
